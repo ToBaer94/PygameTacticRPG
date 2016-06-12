@@ -1,9 +1,7 @@
 # Pygame Tactic RPG Prototype
 
-A "game" similar to tactic games like Fire Emblem and Advance Wars, made priarily as learning experience.
-Currently this is not "really" a game, just a very barebone base structure. You can move around (pathfinding for the player) and attack enemies, 
-including attack animations but that is more or less it. 
-
+A "game" similar to tactic games like Fire Emblem and Advance Wars, made primarily as learning experience.
+Currently this is not "really" a game, just a very barebone base structure. You can move around (pathfinding for the player) and attack enemies, including attack animations but that is more or less it. 
 
 
 Requires python 2.7 and pygame 1.9.2a0 win32 bit: http://www.pygame.org/download.shtml
