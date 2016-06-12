@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="16" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Derp" tilewidth="32" tileheight="32" tilecount="6" columns="0">
+  <properties>
+   <property name="start" value=""/>
+  </properties>
+  <tile id="0">
+   <properties>
+    <property name="movement_cost" value="2"/>
+   </properties>
+   <image width="32" height="32" source="../world/path1.png"/>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="movement_cost" value="1"/>
+   </properties>
+   <image width="32" height="32" source="../world/green.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="../world/start.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="../world/end.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="../world/path2.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="../world/path3.png"/>
+  </tile>
+ </tileset>
+ <layer name="visible" width="25" height="16">
+  <data encoding="csv">
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,
+2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,
+2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,
+2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,
+2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,
+2,2,2,2,1,1,1,1,1,1,1,1,2,2,2,1,1,1,1,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+</map>
