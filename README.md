@@ -22,3 +22,5 @@ Start the game by launching main.py.
 
 Left Click on the hero character, then select a tile to move to. If you are next to an enemy, you can attack that enemy. 
 Press Space to end your turn after you moved.
+
+Right click allows you to revert actions if your character doesnt yet count as moved (If you wait or attack, that ends that characters turn).
